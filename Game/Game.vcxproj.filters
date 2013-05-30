@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\battle1">
+      <UniqueIdentifier>{fdc416df-4678-483d-8487-1a814e45b7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle1">
+      <UniqueIdentifier>{dde310f4-62f7-4fde-b9dc-23934e6a3af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public">
+      <UniqueIdentifier>{04c60339-64a5-4923-b075-84077512efa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\public">
+      <UniqueIdentifier>{4d8c78d1-e536-43cb-af7b-64a54bc79b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle1\Battle2Bird">
+      <UniqueIdentifier>{d052b580-9ab0-42c7-bf96-d720d63ec509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle1\Battle2Bird">
+      <UniqueIdentifier>{8c6c4dcf-39d0-47fd-ad0d-248fac4cca4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle1\equipment">
+      <UniqueIdentifier>{1260ce21-c5bd-4b8e-9922-bd8b40a8048f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle1\equipment">
+      <UniqueIdentifier>{c906f701-2402-4a14-9143-c5d66a6c4796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle2">
+      <UniqueIdentifier>{7c605d0a-ad59-4b46-b436-7ba1ee61632d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\battle3">
+      <UniqueIdentifier>{ecbc6293-cb7e-4ce9-b64a-a0a14528d7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{398625d9-99a0-4c50-91fb-1d8962552d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle2">
+      <UniqueIdentifier>{7dfbe308-7bbb-4333-9dad-d9bcf864d62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle3">
+      <UniqueIdentifier>{2696c3ac-9570-4c3e-acbb-0b201b4bf52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{8fb7fd25-1363-4a0c-aff3-0c3c37dcd823}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CYoungPig.h">
+      <Filter>Header Files\battle1</Filter>
+    </ClInclude>
+    <ClInclude Include="CRocket.h">
+      <Filter>Header Files\battle1\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattle1.h">
+      <Filter>Header Files\battle1</Filter>
+    </ClInclude>
+    <ClInclude Include="CEquipmentManager.h">
+      <Filter>Header Files\battle1\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattle.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CBird.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjects.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CPig.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobal.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+    <ClInclude Include="CFart.h">
+      <Filter>Header Files\battle1\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="CEquipment.h">
+      <Filter>Header Files\battle1</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Header Files\battle1\Battle2Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimEgg.h">
+      <Filter>Header Files\battle1\Battle2Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="CBigMouseBird.h">
+      <Filter>Header Files\battle1\Battle2Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="CBombEgg.h">
+      <Filter>Header Files\battle1\Battle2Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="CEggBird.h">
+      <Filter>Header Files\battle1\Battle2Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightBird.h">
+      <Filter>Header Files\battle1\Battle2Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet1.h">
+      <Filter>Header Files\battle1\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="bigMouseBird.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="C1_bird.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="C2_Pig.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattle2.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectState.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CStrength.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon.h">
+      <Filter>Header Files\battle2</Filter>
+    </ClInclude>
+    <ClInclude Include="CChooseCard.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUIItem.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CHelp.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoading.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainMenu.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSeting.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimBrid_Run_battle.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimDragon.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimEggBird.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimMoveDownBird.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimSwoopBird.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackground.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattle0.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CYoungPig1.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CEgg.h">
+      <Filter>Header Files\battle3</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameOver.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleStory.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>Header Files\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CYoungPig.cpp">
+      <Filter>Source Files\battle1</Filter>
+    </ClCompile>
+    <ClCompile Include="CRocket.cpp">
+      <Filter>Source Files\battle1\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattle1.cpp">
+      <Filter>Source Files\battle1</Filter>
+    </ClCompile>
+    <ClCompile Include="CEquipmentManager.cpp">
+      <Filter>Source Files\battle1\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattle.cpp">
+      <Filter>Source Files\public</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>Source Files\public</Filter>
+    </ClCompile>
+    <ClCompile Include="CBird.cpp">
+      <Filter>Source Files\public</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjects.cpp">
+      <Filter>Source Files\public</Filter>
+    </ClCompile>
+    <ClCompile Include="CPig.cpp">
+      <Filter>Source Files\public</Filter>
+    </ClCompile>
+    <ClCompile Include="CFart.cpp">
+      <Filter>Source Files\battle1\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="CEquipment.cpp">
+      <Filter>Source Files\battle1</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Source Files\battle1\Battle2Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimEgg.cpp">
+      <Filter>Source Files\battle1\Battle2Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="CBigMouseBird.cpp">
+      <Filter>Source Files\battle1\Battle2Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="CBombEgg.cpp">
+      <Filter>Source Files\battle1\Battle2Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="CEggBird.cpp">
+      <Filter>Source Files\battle1\Battle2Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightBird.cpp">
+      <Filter>Source Files\battle1\Battle2Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet1.cpp">
+      <Filter>Source Files\battle1\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="bigMouseBird.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="C1_bird.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="C2_Pig.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattle2.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="CStrength.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon.cpp">
+      <Filter>Source Files\battle2</Filter>
+    </ClCompile>
+    <ClCompile Include="CChooseCard.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUIItem.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CHelp.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoading.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainMenu.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSeting.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CAinMoveDownBird.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimBrid_Run_battle.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimDragon.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimEggBird.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimSwoopBird.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackground.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattle0.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CEgg.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CYounPig1.cpp">
+      <Filter>Source Files\battle3</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameOver.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleStory.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Source Files\public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

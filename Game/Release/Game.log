@@ -1,0 +1,68 @@
+﻿Build started 2012/4/24 13:06:19.
+     1>Project "F:\学习\项目\猪猪侠\Game\Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CGame.cpp
+         CGame.cpp
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\学习\项目\猪猪侠\Release\Game.exe" /INCREMENTAL:NO /NOLOGO hge.lib hgehelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /ManifestFile:"Release\Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\学习\项目\猪猪侠\Release\Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\学习\项目\猪猪侠\Release\Game.lib" /MACHINE:X86 Release\bigMouseBird.obj
+         Release\bullet.obj
+         Release\C1_bird.obj
+         Release\C2_Pig.obj
+         Release\CAinMoveDownBird.obj
+         Release\CAnimation.obj
+         Release\CAnimBrid_Run_battle.obj
+         Release\CAnimDragon.obj
+         Release\CAnimEgg.obj
+         Release\CAnimEggBird.obj
+         Release\CAnimSwoopBird.obj
+         Release\CBackground.obj
+         Release\CBattle.obj
+         Release\CBattle0.obj
+         Release\CBattle1.obj
+         Release\CBattle2.obj
+         Release\CBattleStory.obj
+         Release\CBigMouseBird.obj
+         Release\CBird.obj
+         Release\CBombEgg.obj
+         Release\CBullet1.obj
+         Release\CChooseCard.obj
+         Release\CEgg.obj
+         Release\CEggBird.obj
+         Release\CEquipment.obj
+         Release\CEquipmentManager.obj
+         Release\CFart.obj
+         Release\CGame.obj
+         Release\CGameOver.obj
+         Release\CGUI.obj
+         Release\CGUIItem.obj
+         Release\CHelp.obj
+         Release\CLightBird.obj
+         Release\CLoading.obj
+         Release\CMainMenu.obj
+         Release\CPig.obj
+         Release\CRocket.obj
+         Release\CSeting.obj
+         Release\CSoundManager.obj
+         Release\CStrength.obj
+         Release\CWeapon.obj
+         Release\CYoungPig.obj
+         Release\CYounPig1.obj
+         Release\Main.obj
+         Release\CObjects.obj
+         Generating code
+     1>f:\学习\项目\猪猪侠\game\cbattle0.cpp(981): warning C4715: 'CBattle0::TimerMenege_Render' : not all control paths return a value
+     1>f:\学习\项目\猪猪侠\game\cbattle0.cpp(825): warning C4715: 'CBattle0::TimerMenege_Update' : not all control paths return a value
+         Finished generating code
+         Game.vcxproj -> F:\学习\项目\猪猪侠\Release\Game.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\学习\项目\猪猪侠\Release\Game.exe;#1" /manifest Release\Game.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Game.unsuccessfulbuild".
+         Touching "Release\Game.lastbuildstate".
+     1>Done Building Project "F:\学习\项目\猪猪侠\Game\Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.49
